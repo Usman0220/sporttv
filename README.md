@@ -26,14 +26,14 @@ This is a simple video player built with Python's tkinter library and VLC to str
     ```
 3.  **Run the application:**
     ```bash
-    python test.py
+    python tv.py
     ```
 
 ## Configuration
 
-The HLS stream URL can be configured in the `test.py` file:
+The HLS stream URL can be configured in the `tv.py` file:
 
 ```python
 # HLS stream URL (tokenized .m3u8)
-video_url = "https://myuhlsv2.hls-video.net/media2/token/a3f0c81db39d64f85b6f6a5cfaa1b2ce/stream.m3u8?token=f148eccea160313be734dd7c2bd5c574"
+video_url = "YOUR_HLS_STREAM_URL_HERE"
 ```
