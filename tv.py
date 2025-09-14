@@ -6,7 +6,7 @@ import vlc
 # CONFIGURATION
 # -------------------------------
 # HLS stream URL (tokenized .m3u8)
-video_url = "https://myuhlsv2.hls-video.net/media2/token/a3f0c81db39d64f85b6f6a5cfaa1b2ce/stream.m3u8?token=f148eccea160313be734dd7c2bd5c574"
+video_url = "YOUR_HLS_STREAM_URL_HERE"
 
 # VLC instance (no headers required on Windows; VLC handles HLS)
 vlc_instance = vlc.Instance()
